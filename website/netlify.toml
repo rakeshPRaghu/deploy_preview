@@ -11,14 +11,8 @@
   to = "https:/deploy-preview-2--naughty-liskov-259a81.netlify.app/:splat"
   status = 200
   force = true
-  
-  
-
 
 [[redirects]]
   from = "/*"
   to = "/index.html"
   status = 200
-
-
-  
