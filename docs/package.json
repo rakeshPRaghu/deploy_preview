@@ -7,7 +7,7 @@
     "prestart": "yarn run write-translations",
     "start": "docusaurus start",
     "prebuild": "yarn run write-translations",
-    "build": "docusaurus build",
+    "build": "docusaurus build --out-dir build/docs",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",

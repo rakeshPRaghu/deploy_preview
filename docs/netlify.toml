@@ -1,5 +1,5 @@
 [build]
   base = "docs/"
-  publish = "build/docs/"
+  publish = "build/"
   command = "yarn run build"
   
