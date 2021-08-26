@@ -6,10 +6,18 @@
 #https://stackoverflow.com/questions/58065603/netlify-renders-404-on-page-refresh-using-react-and-react-router 
 
 [[redirects]]
+  from = "/docs"
+  to = "https://naughty-liskov-259a81.netlify.app/"
+  status = 200
+  force = true
+
+[[redirects]]
   from = "/docs/*"
   to = "https://naughty-liskov-259a81.netlify.app/:splat"
   status = 200
   force = true
+  
+  
 
 
 [[redirects]]
