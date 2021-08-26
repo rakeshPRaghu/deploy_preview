@@ -23,10 +23,6 @@ module.exports = {
   },
   themeConfig: {
     image: 'img/card-openebs.png',
-    gtag: {
-      trackingID: 'UA-92076314-12',
-      anonymizeIP: true,
-    },
     colorMode: {
       defaultMode: "light",
       disableSwitch: true,
