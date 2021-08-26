@@ -11,7 +11,7 @@ module.exports = {
   title: "OpenEBS Docs",
   tagline: "OpenEBS Docs: Information regarding the latest releases",
   url: `${WEBSITE_URL}`,
-  baseUrl: "/",
+  baseUrl: "/docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "/docs/img/favicon.ico",
