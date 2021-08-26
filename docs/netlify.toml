@@ -1,3 +1,8 @@
+[build]
+  base = "docs/"
+  publish = "build/"
+  command = "npm run build"
+
 [context.deploy-preview]
   base = "docs/"  
   command = "npm run previewBuild"
