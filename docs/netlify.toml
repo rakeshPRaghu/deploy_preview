@@ -4,5 +4,9 @@
   command = "npm run build"
 
 [context.deploy-preview]
-  base = "docs/"  
-  command = "npm run previewBuild"
+  base = "docs/"
+  publish = "/"
+  command = "yarn run previewBuild"
+  [[redirects]]
+    from = "/"
+    to = "/docs"
