@@ -4,5 +4,6 @@
   command = "npm run build"
 
 [context.deploy-preview]
-  base = "docs/"  
+  base = "docs/"
+  publish = "/"
   command = "npm run previewBuild"
