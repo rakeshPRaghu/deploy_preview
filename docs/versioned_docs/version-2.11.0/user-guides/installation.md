@@ -1,6 +1,6 @@
 ---
 id: installation
-title: Installing OpenEBS
+title: Installing OpenEBS d
 keywords: 
   - Installing OpenEBS
   - Installing OpenEBS through helm
