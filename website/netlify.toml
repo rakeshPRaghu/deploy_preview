@@ -7,7 +7,7 @@
 
 [[redirects]]
   from = "/docs/*"
-  to = "https://naughty-liskov-259a81.netlify.app/:splat"
+  to = "https:/deploy-preview-2--naughty-liskov-259a81.netlify.app/:splat"
   status = 200
   force = true
 
