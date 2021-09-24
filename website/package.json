@@ -41,7 +41,7 @@
     "postinstall": "node public/getPosts.js",
     "getContributors": "node public/getContributors.js",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run postinstall && react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
     "fixlint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --fix"
