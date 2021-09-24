@@ -1,5 +1,5 @@
 ---
-title: A Primer on OpenEBS Continuous Integration
+title: A Primer
 author: Karthik Satchitanand
 author_info: Karthik has been into the Design and Development of tools for infrastructure as code, software testing performance & benchmarking & chaos engineering.
 date: 02-04-2019
